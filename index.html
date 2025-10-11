@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Navigation</title>
+    <style>
+        .nav-container {
+            padding: 5px;
+
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            color: #222;
+            font-size: 1.9rem;
+        }
+
+        .lab-link {
+            display: block;
+            margin: 8px 0;
+            color: #0078d4;
+            text-decoration: underline;
+            font-size: 1.2rem;
+            transition: color 0.2s;
+        }
+
+        .lab-link::before {
+            content: "🔗 ";
+        }
+
+        .lab-link:hover {
+            color: #5d656b;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav-container">
+        <h1>Lab Tasks</h1>
+        <a class="lab-link" href="./Lab01-folder/index.html">Lab-01</a>
+        <a class="lab-link" href="./Lab02-folder/index.html">Lab-02</a>
+    </div>
+</body>
+
+</html>

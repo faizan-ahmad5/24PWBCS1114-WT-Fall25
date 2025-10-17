@@ -2,42 +2,69 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lab Navigation</title>
-    <meta name="description"
-        content="Lab index for Web Technologies (Fall 2025) — Faizan Ahmad Khan. Links to lab exercises and project pages.">
-    <meta name="keywords" content="Faizan Ahmad Khan, UET Peshawar, Web Technologies, labs">
-    <meta name="author" content="Faizan Ahmad Khan">
-    <meta name="robots" content="index,follow">
-    <meta property="og:title" content="Faizan Ahmad Khan — Lab Navigation">
-    <meta property="og:description" content="Links to Lab 1 and Lab 2 exercises for Web Technologies (Fall 2025).">
+
     <style>
-        .nav-container {
-            padding: 5px;
+        body {
+            background-color: #f5f5f5;
+            color: #222;
         }
 
+        .nav-container {
+            max-width: 450px;
+            margin: auto;
+            background-color: #fff;
+            padding: 30px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+        }
+
+
         h1 {
+            font-size: 1.6rem;
             margin-bottom: 20px;
+            text-align: center;
+            font-weight: 500;
             color: #222;
-            font-size: 1.9rem;
         }
 
         .lab-link {
             display: block;
-            margin: 8px 0;
-            color: #0078d4;
-            text-decoration: underline;
-            font-size: 1.2rem;
-            transition: color 0.2s;
+            padding: 12px 0;
+            font-size: 1.1rem;
+            color: #333;
+            text-decoration: none;
+            border-bottom: 1px solid #eee;
+            transition: color 0.2s ease;
         }
 
         .lab-link::before {
-            content: "🔗 ";
+            content: "➤ ";
+            color: #c08c1d;
         }
 
         .lab-link:hover {
-            color: #5d656b;
+            color: #c08c1d;
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 20px;
+            }
+
+            .nav-container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            .lab-link {
+                font-size: 1rem;
+            }
         }
     </style>
 </head>
@@ -47,6 +74,7 @@
         <h1>Lab Tasks</h1>
         <a class="lab-link" href="./Lab01-folder/index.html">Lab-01</a>
         <a class="lab-link" href="./Lab02-folder/index.html">Lab-02</a>
+        <a class="lab-link" href="./Lab05-folder/index.html">Lab-05</a>
     </div>
 </body>
 

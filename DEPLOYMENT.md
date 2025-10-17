@@ -10,7 +10,6 @@ Summary
 
 - Changes pushed to `main` and site published via GitHub Pages.
 - Custom `404.html` exists at the repo root and is served for missing pages.
-- SEO meta tags and lazy-loading attributes were added to HTML files.
 
 To update:
 
@@ -20,7 +19,3 @@ To update:
 4. git push origin main
 
 That's all.
-
-```
-
-```
